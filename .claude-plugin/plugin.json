@@ -6,6 +6,9 @@
     "name": "Maikozort",
     "url": "https://github.com/Maikozort"
   },
+  "displayName": "Social Publish Kit",
+  "homepage": "https://github.com/Maikozort/social-publish-kit",
+  "repository": "https://github.com/Maikozort/social-publish-kit",
   "license": "MIT",
   "keywords": ["youtube", "shorts", "tiktok", "instagram", "reels", "facebook", "seo", "copywriting", "thumbnail", "gaming"]
 }
