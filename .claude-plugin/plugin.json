@@ -1,0 +1,11 @@
+{
+  "name": "social-publish-kit",
+  "version": "0.1.0",
+  "description": "Prepara la publicación de un video en YouTube, Shorts, TikTok, Instagram Reels y Facebook Reels: analiza el video, llena cada campo de la plataforma, escribe el copy con SEO y CTAs, y crea el prompt de la portada.",
+  "author": {
+    "name": "Maikozort",
+    "url": "https://github.com/Maikozort"
+  },
+  "license": "MIT",
+  "keywords": ["youtube", "shorts", "tiktok", "instagram", "reels", "facebook", "seo", "copywriting", "thumbnail", "gaming"]
+}

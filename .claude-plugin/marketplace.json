@@ -1,0 +1,14 @@
+{
+  "name": "social-publish-kit",
+  "owner": {
+    "name": "Maikozort",
+    "url": "https://github.com/Maikozort"
+  },
+  "plugins": [
+    {
+      "name": "social-publish-kit",
+      "source": "./",
+      "description": "Fichas de publicación para YouTube, Shorts, TikTok, Instagram Reels y Facebook Reels, con análisis del video, copy con SEO y prompts de portada."
+    }
+  ]
+}

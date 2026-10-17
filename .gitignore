@@ -1,0 +1,11 @@
+# Salidas del análisis de video y fichas generadas
+analisis-*/
+ficha-*.md
+creador.md
+
+# Videos de prueba
+*.mp4
+*.mov
+*.mkv
+
+__pycache__/
