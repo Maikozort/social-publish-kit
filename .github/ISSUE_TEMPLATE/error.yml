@@ -1,0 +1,48 @@
+name: Algo no funciona
+description: La skill dio un resultado incorrecto, el script falló o no se activó.
+title: "[Error] "
+labels: ["error"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - publicar
+        - analizar-video
+        - copy
+        - portada
+        - ficha-youtube
+        - ficha-tiktok
+        - ficha-instagram
+        - ficha-facebook
+    validations:
+      required: true
+  - type: dropdown
+    id: entorno
+    attributes:
+      label: Dónde la usas
+      options:
+        - Claude Code (terminal)
+        - Claude Code (app de escritorio)
+        - Claude.ai web o app
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: Qué pasó y qué esperabas
+    validations:
+      required: true
+  - type: textarea
+    id: salida
+    attributes:
+      label: Mensaje de error o salida
+      description: Si falló el script de análisis, pega lo que imprimió. Quita rutas o datos personales.
+      render: text
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema, versión de Python y de ffmpeg
+      placeholder: "Windows 11, Python 3.12, ffmpeg 7.1"

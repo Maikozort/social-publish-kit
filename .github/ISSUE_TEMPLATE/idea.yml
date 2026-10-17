@@ -1,0 +1,21 @@
+name: Idea o mejora
+description: Una plataforma nueva, una función o una forma de mejorar el copy o las portadas.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Qué propones
+    validations:
+      required: true
+  - type: textarea
+    id: por-que
+    attributes:
+      label: Por qué ayudaría a los creadores
+  - type: checkboxes
+    id: ayuda
+    attributes:
+      label: ¿Quieres trabajar en ello?
+      options:
+        - label: Sí, puedo mandar un PR

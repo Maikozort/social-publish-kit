@@ -1,0 +1,47 @@
+name: Cambio en una plataforma
+description: Un campo nuevo, renombrado, movido o que ya no existe en YouTube, TikTok, Instagram o Facebook.
+title: "[Plataforma] "
+labels: ["plataforma"]
+body:
+  - type: dropdown
+    id: plataforma
+    attributes:
+      label: Plataforma
+      options:
+        - YouTube (video largo)
+        - YouTube Shorts
+        - TikTok
+        - Instagram Reels
+        - Facebook Reels
+        - Otra
+    validations:
+      required: true
+  - type: dropdown
+    id: dispositivo
+    attributes:
+      label: Dónde lo viste
+      options:
+        - Web
+        - App iOS
+        - App Android
+    validations:
+      required: true
+  - type: input
+    id: idioma
+    attributes:
+      label: Idioma de la interfaz
+      placeholder: "español, inglés…"
+  - type: textarea
+    id: cambio
+    attributes:
+      label: Qué cambió
+      description: Nombre del campo y qué es distinto de lo que dice la skill.
+    validations:
+      required: true
+  - type: textarea
+    id: capturas
+    attributes:
+      label: Capturas
+      description: Arrastra aquí las capturas de la pantalla con las opciones desplegadas.
+    validations:
+      required: true
